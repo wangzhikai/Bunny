@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : Basics.cpp
+// Author      : Zhikai
+// Version     :
+// Copyright   : (c) 2010 2015 Zhikai Wang/www.heteroclinic.net
+// Description : Basic implementation of math functions
+//============================================================================
 #include "basics.h"
 template <class T> 
 T lagrangeInterpolate( int n,T itpv,T * weight,T * base) {

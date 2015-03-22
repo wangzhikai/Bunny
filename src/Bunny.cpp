@@ -5,6 +5,7 @@
 // Copyright   : (c) 2010 2015 Zhikai Wang/www.heteroclinic.net
 // Description : The entry point of the project. There are a lot of comments I wrote five years ago,
 // they will be cleaned later.
+// Note: For all demo results, use 512x512.
 //============================================================================
 
 // TODO 20150322 Make sure Phong shading works (Demo 1)
@@ -35,7 +36,7 @@
 //#include <GL/wglew.h>
 #include "model.h"
 
-GLint width=1024,height=1024;// you must set them as 512 for best effects
+GLint width=512,height=512;// you must set them as 512 for best effects
 //GLint width=800,height=800;// you must set them as 512 for best effects
 
 GLhandleARB v,f,p;
@@ -711,7 +712,7 @@ void drawModels() {
 //
 	setRevBlueShinyMaterial();
 	glPushMatrix();
-	glTranslatef(0.0,0.0,-3.0);
+	glTranslatef(5.0,0.0,-3.0);
 	glRotatef(45,0,1,0);
 	glRotatef(135,1,0,0);
 	bunny.drawNoTransformationSmoothShading();

@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : Basics.h
+// Author      : Zhikai
+// Version     :
+// Copyright   : (c) 2010 2015 Zhikai Wang/www.heteroclinic.net
+// Description : Basic implementation of math functions
+//============================================================================
 #ifndef __BASICS
 #define __BASICS
 //#include <windows.h>

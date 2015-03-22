@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : modeltriangle.h
+// Author      : Zhikai
+// Version     :
+// Copyright   : (c) 2010 2015 Zhikai Wang/www.heteroclinic.net
+// Description : Mock of GTS with limited new features.
+//============================================================================
 #ifndef __TRIANGLE
 #define __TRIANGLE
 #include "basics.h"

@@ -18,4 +18,4 @@ Right click the project, 'properties', select 'C/C++ Build', change 'Configurati
 $ cd $PATH_TO_BUNNY/Debug
 $ export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/lib64
 $ ./Bunny
-
+4. You will see Demo 1.0 result of Phong shading as in Demo01PhongShading.png
