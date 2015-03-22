@@ -2,3 +2,5 @@
 /Build/
 .cproject
 .project
+*~
+.settings/
