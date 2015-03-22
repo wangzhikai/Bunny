@@ -1,0 +1,13 @@
+0. Suppose in your dev environment, you already set/install gcc, opengl/mesa, freeglut, glew and the most up-to-date graphics card driver. 
+In my computer glew is installed in /usr/lib64, so I would set  LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/lib64 in my dev environment, especially for run-time.
+1. Start from blank
+Create a Eclipse CDT project, eg. a 'Hello World' project, preferrably a 'Cross GCC' project.
+Right click the project, 'properties', select 'C/C++ Build', change 'Configuration' to <All configurations>.
+'Settings', 'Cross GCC Assembler', by 'Include paths' click the '+' sign to add 'Assembler flags' for the following (case sensitive):
+<GLEW>
+<GLU>
+<GL>
+<glut>
+2. Copy the source file into your 'src' folder. Create/copy the the 'shaders' folder. Create/copy the 'models' folder.
+
+
