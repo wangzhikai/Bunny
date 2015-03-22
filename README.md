@@ -10,6 +10,6 @@ So I started the project GlChemstry. In GlChemstry, my first thinking to find/re
 
 Around the time of 2009 and 2010, I spent much effort on studying GTS, GNU triangulated surface for short. The goal was to achieve smooth shading. There was the problem to compute vertices normals. One triangle's normal is easy to compute. But a vertex may belong to multiple triangles, we can average the normals, or further average with weighing in the areas of triangles. But the result achieved is still coarse. Further research brought in Phong shading. This is the mission of GLEW, programming with shaders.
 
-So Bunny at the very begginning was a mock of GTS, plus smooth shading, plus GLEW Phone shading. After these achieved, I implemented depth peeling transparency in this project.
+So Bunny at the very begginning was a mock of GTS, plus smooth shading, plus GLEW Phong shading. After these achieved, I implemented depth peeling transparency in this project.
 
 In 2015, I ported this project to Ubuntu/Linux environment.
