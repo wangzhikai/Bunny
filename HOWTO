@@ -9,7 +9,11 @@ Right click the project, 'properties', select 'C/C++ Build', change 'Configurati
 <GL>
 <glut>
 2. Copy the sources file into your 'src' folder. Create/copy the the 'shaders' folder. Create/copy the 'models' folder.
-2.1 Specify abosulte path to shaders
+2.1 Specify abosulte path to shaders in Bunny.cpp (stupid but easy to understand) by locating these two lines:
+	vs = textFileRead("/home/zhikai/Desktop/Bunny/Shaders/phong.vert");
+	fs = textFileRead("/home/zhikai/Desktop/Bunny/Shaders/phong.frag");
+2.2 Specify abosulte path to one model in Bunny.cpp by locating the following line:
+	bunny.initFromFile("/home/zhikai/Desktop/Bunny/Models/bunny.gts");
 3. Right click the project <Bunny>, 'Build project'. So far, the project should compile (with a lot warings). In Eclipse, due to LD_LIBRARY_PATH, you can run the binary. So we open a shell console.
 $ cd $PATH_TO_BUNNY/Debug
 $ export LD_LIBRARY_PATH=LD_LIBRARY_PATH:/usr/lib64

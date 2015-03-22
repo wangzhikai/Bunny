@@ -7,7 +7,7 @@
 // they will be cleaned later.
 //============================================================================
 
-// TODO 20150322 Make sure Phong shading works
+// TODO 20150322 Make sure Phong shading works (Demo 1)
 // TODO 20150322 Create the visual C++ branch ?
 
 //notes: we can render the value z(eyecoordinate) as a color element (frag.b=z) of a
@@ -1258,8 +1258,8 @@ void setShaders() {
 
 	v = glCreateShaderObjectARB(GL_VERTEX_SHADER_ARB);
 	f = glCreateShaderObjectARB(GL_FRAGMENT_SHADER_ARB);
-	vs = textFileRead("/home/zhikai/Desktop/EclipseWorkspace/CDTBunny/shaders/phong.vert");
-	fs = textFileRead("/home/zhikai/Desktop/EclipseWorkspace/CDTBunny/shaders/phong.frag");
+	vs = textFileRead("/home/zhikai/Desktop/Bunny/Shaders/phong.vert");
+	fs = textFileRead("/home/zhikai/Desktop/Bunny/Shaders/phong.frag");
 
 	v2 = glCreateShaderObjectARB(GL_VERTEX_SHADER_ARB);
 	f2 = glCreateShaderObjectARB(GL_FRAGMENT_SHADER_ARB);
@@ -1374,7 +1374,8 @@ void initall() {
 	setShaders();//OK
 
 	bunny.OBJ_SIZE = 3.0;
-	bunny.initFromFile("/home/zhikai/Desktop/bunnynoneqt/Debug/x_wing.gts");
+	bunny.initFromFile("/home/zhikai/Desktop/Bunny/Models/bunny.gts");
+
 	//x_wing.gts
 	//bunny.initFromFile("x_wing.gts");
 	bunny.calculateScale();
