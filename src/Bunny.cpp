@@ -7,6 +7,9 @@
 // they will be cleaned later.
 //============================================================================
 
+// TODO 20150322 Make sure Phong shading works
+// TODO 20150322 Create the visual C++ branch ?
+
 //notes: we can render the value z(eyecoordinate) as a color element (frag.b=z) of a
 // color texture, then use it to peel
 // but the effect is not as good as depth buffer.
