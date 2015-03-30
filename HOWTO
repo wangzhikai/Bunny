@@ -10,7 +10,7 @@ freeglut-devel-2.6.0-1.el6.x86_64
 sudo yum install -y freeglut-devel-2.6.0-1.el6.x86_64 mesa-libGLU-devel-10.1.2-2.el6.x86_64
 
 1. Start from blank
-Create a Eclipse CDT project, eg. a 'Hello World' project, preferrably a 'Cross GCC' project.
+Create a Eclipse CDT project, eg. a 'Hello World' project, preferably a 'Cross GCC' project.
 Right click the project, 'properties', select 'C/C++ Build', change 'Configuration' to <All configurations>.
 'Settings', 'Cross GCC Linker', by 'Libraries(-l)' click the '+' sign for the following (case sensitive):
 <GLEW>
